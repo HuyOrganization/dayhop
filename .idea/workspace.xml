@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5165f00-25fc-4243-849f-00930495588c" name="Default" comment="" />
+    <list default="true" id="a5165f00-25fc-4243-849f-00930495588c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/123.py" afterPath="$PROJECT_DIR$/123.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/listMap.py" afterPath="$PROJECT_DIR$/listMap.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sokoban.kv" afterPath="$PROJECT_DIR$/sokoban.kv" />
+    </list>
     <ignored path="untitled5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,11 +19,13 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dayhop$123.coverage" NAME="123 Coverage Results" MODIFIED="1471780205247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled5$thu.coverage" NAME="thu Coverage Results" MODIFIED="1470481014622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/untitled5$123.coverage" NAME="123 Coverage Results" MODIFIED="1471688543919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled5$123.coverage" NAME="123 Coverage Results" MODIFIED="1471755027779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled5$Loadimage.coverage" NAME="Loadimage Coverage Results" MODIFIED="1470417679538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled5$listMap.coverage" NAME="listMap Coverage Results" MODIFIED="1470509867595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled5$Project.coverage" NAME="Project Coverage Results" MODIFIED="1471684966723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/dayhop$listMap.coverage" NAME="listMap Coverage Results" MODIFIED="1471760544689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled5$Unittests_in_demo123.coverage" NAME="Unittests in demo123 Coverage Results" MODIFIED="1470487003107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -30,40 +37,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="123.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="123.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/123.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+            <state relative-caret-position="76">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#4258#5036#0" expanded="false" />
-                <element signature="e#5080#5265#0" expanded="false" />
-                <element signature="e#5307#5394#0" expanded="false" />
-                <element signature="e#6124#6337#0" expanded="false" />
-                <marker date="1471688130273" expanded="false" signature="2967:3204" ph="..." />
-                <marker date="1471688130273" expanded="false" signature="3226:3457" ph="..." />
-                <marker date="1471688130273" expanded="false" signature="3854:4019" ph="..." />
-                <marker date="1471688130273" expanded="false" signature="4044:4228" ph="..." />
+                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#2917#3144#0" expanded="false" />
+                <element signature="e#3176#3397#0" expanded="false" />
+                <element signature="e#4087#4243#0" expanded="false" />
+                <element signature="e#4277#4452#0" expanded="false" />
+                <element signature="e#4688#4873#0" expanded="false" />
+                <element signature="e#4915#5002#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sokoban.kv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sokoban.kv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listMap.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="listMap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/listMap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -77,6 +73,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,24 +130,7 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -158,7 +140,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/untitled7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -479,8 +461,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.123" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Project" />
-        <item index="2" class="java.lang.String" itemvalue="Python.listMap" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listMap" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Project" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in demo123" />
         <item index="4" class="java.lang.String" itemvalue="Python.thu" />
       </list>
@@ -536,9 +518,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2489019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -596,17 +578,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/123.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2669">
+          <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sokoban.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Level.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sokoban.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/123.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
           <caret line="124" column="28" selection-start-line="112" selection-start-column="10" selection-end-line="124" selection-end-column="28" />
           <folding>
-            <element signature="e#4258#5036#0" expanded="false" />
-            <element signature="e#5080#5265#0" expanded="false" />
-            <element signature="e#5307#5394#0" expanded="false" />
-            <element signature="e#6124#6337#0" expanded="false" />
-            <marker date="1471688130273" expanded="false" signature="2967:3204" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3226:3457" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3854:4019" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="4044:4228" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,14 +692,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4258#5036#0" expanded="false" />
-            <element signature="e#5080#5265#0" expanded="false" />
-            <element signature="e#5307#5394#0" expanded="false" />
-            <element signature="e#6124#6337#0" expanded="false" />
-            <marker date="1471688130273" expanded="false" signature="2967:3204" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3226:3457" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3854:4019" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="4044:4228" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -682,14 +733,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#4258#5036#0" expanded="false" />
-            <element signature="e#5080#5265#0" expanded="false" />
-            <element signature="e#5307#5394#0" expanded="false" />
-            <element signature="e#6124#6337#0" expanded="false" />
-            <marker date="1471688130273" expanded="false" signature="2967:3204" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3226:3457" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3854:4019" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="4044:4228" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,19 +796,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/kivy/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="801" column="0" selection-start-line="801" selection-start-column="0" selection-end-line="801" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python34/Lib/site-packages/kivy/lang.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="1741" column="0" selection-start-line="1741" selection-start-column="0" selection-end-line="1741" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -770,36 +811,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/listMap.py">
+    <entry file="file://$PROJECT_DIR$/Level.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/site-packages/kivy/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-837">
+          <caret line="801" column="0" selection-start-line="801" selection-start-column="0" selection-end-line="801" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sokoban.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state relative-caret-position="232">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/123.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="98" column="59" selection-start-line="98" selection-start-column="59" selection-end-line="98" selection-end-column="59" />
+        <state relative-caret-position="76">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#4258#5036#0" expanded="false" />
-            <element signature="e#5080#5265#0" expanded="false" />
-            <element signature="e#5307#5394#0" expanded="false" />
-            <element signature="e#6124#6337#0" expanded="false" />
-            <marker date="1471688130273" expanded="false" signature="2967:3204" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3226:3457" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="3854:4019" ph="..." />
-            <marker date="1471688130273" expanded="false" signature="4044:4228" ph="..." />
+            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#2917#3144#0" expanded="false" />
+            <element signature="e#3176#3397#0" expanded="false" />
+            <element signature="e#4087#4243#0" expanded="false" />
+            <element signature="e#4277#4452#0" expanded="false" />
+            <element signature="e#4688#4873#0" expanded="false" />
+            <element signature="e#4915#5002#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listMap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

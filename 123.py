@@ -2,36 +2,32 @@ from kivy.app import App
 from kivy.core.window import Window
 from kivy.uix.widget import Widget
 from kivy.properties import NumericProperty, ReferenceListProperty, \
-    ObjectProperty, StringProperty, ListProperty
+    ObjectProperty, StringProperty
 from kivy.uix.image import Image
-from kivy.lang import Builder
-from kivy.uix.screenmanager import ScreenManager, Screen
-from kivy.clock import Clock
-from kivy.uix.layout import Layout
-from kivy.uix.floatlayout import FloatLayout
-
+from kivy.uix.label import Label
 
 import listMap
 from kivy.core.window import Window
+
+def adjustmap(map, x, y):
+    for element in map:
+        element[0] = element[0] + y
+        element[1] = element[1] + x
+    return map
+i = 2
+listMap.change_map(i)
 listDoor = listMap.positionDoor
 listBox = listMap.positionBox
 listRock = listMap.positionRock
 positionPerson = listMap.positionPerson
 X = listMap.mapX
 Y = listMap.mapY
-
-def adjustmap(map,x, y):
-    for element in map:
-        element[0] = element[0] + y
-        element[1] = element[1] + x
-    return map
-
 size = 50
-Y = (12 - Y)//2
-X = (16 - X)//2
-listDoor = adjustmap(listDoor,X,Y)
-listBox = adjustmap(listBox,X,Y)
-listRock = adjustmap(listRock,X,Y)
+Y = (12 - Y) // 2
+X = (16 - X) // 2
+listDoor = adjustmap(listDoor, X, Y)
+listBox = adjustmap(listBox, X, Y)
+listRock = adjustmap(listRock, X, Y)
 positionPerson[0] += Y
 positionPerson[1] += X
 
@@ -67,7 +63,6 @@ class Player(Widget):
         return -1
 
     def checkafterbox(self,box,lbox):
-        print(listRock)
         for rock in listRock:
             c1 = (rock[1] * size == box.px + self.speedX)
             c2 = (rock[0] * size == box.py + self.speedY)
@@ -76,7 +71,6 @@ class Player(Widget):
         for box_ in lbox:
             c1 = (box_.px == box.px + self.speedX)
             c2 = (box_.py == box.py + self.speedY)
-            print(c1, c2)
             if (c1 and c2 == True):
                 return True
         return False
@@ -89,16 +83,18 @@ class Player(Widget):
         box.px = box.px + self.speedX
         box.py = box.py + self.speedY
 
-    def update(self, lbox, ldoor):
+    def update(self, lbox, ldoor, move_):
 
-        if self.checkrock() == False:
+        if self.checkrock() == False and self.speedX + self.speedY != 0:
             t = self.checkbox(lbox)
-
             if t == -1:
                 self.move()
+                move_ = move_ + 1
             elif self.checkafterbox(lbox[t],lbox) == False:
                 self.moveBox(lbox[t])
                 self.move()
+                move_ = move_ + 1
+        return move_
 
 
 class Box(Widget):
@@ -124,10 +120,18 @@ class Door(Widget):
     pos = ReferenceListProperty(px,py)
     image_ = StringProperty("door.png")
 
+def end_check(lbox,ldoor):
+    count = 0
+    for box in lbox:
+        for door in ldoor:
+            if (box.px == door.px - 10) and (box.py == door.py - 10):
+                count += 1
+    if count == 4: return True
+    else : return False
 
-class SokobanGame(FloatLayout):
+class SokobanGame(Widget):
 
-
+    status = False
     #nguoi choi
     player = ObjectProperty(None)
 
@@ -142,7 +146,7 @@ class SokobanGame(FloatLayout):
     door2 = ObjectProperty(None)
     door3 = ObjectProperty(None)
     door4 = ObjectProperty(None)
-
+    move_ = NumericProperty(0)
     def initbox(self):
         box = [self.box1,self.box2,self.box3,self.box4]
         for i in range(4):
@@ -158,15 +162,7 @@ class SokobanGame(FloatLayout):
     def draw(self):
         with self.canvas:
             for rock in listRock:
-                self.add_widget(Image(source='Wall_Beige.png', pos_hint={"x": rock[1]/16, "y": rock[0]/12}, size_hint = (1/16, 1/12)))
-
-            # for x in range(16):
-            #     #print(x / 16)
-            #     self.add_widget(Image(source='Wall_Beige.png', pos_hint={"x": x/16,"y": 0 }, size_hint = (1/16, 1/12)))
-            #     self.add_widget(Image(source='Wall_Beige.png', pos_hint={"x": x/16,"y": 11/12}, size_hint = (1/16, 1/12)))
-            # for y in range(12):
-            #     self.add_widget(Image(source='Wall_Beige.png', pos_hint={"x": 0,"y": y/12}, size_hint=(1/16, 1/12)))
-            #     self.add_widget(Image(source='Wall_Beige.png', pos_hint={"x": 15/16,"y": y/12 }, size_hint=(1/16, 1/12)))
+                self.add_widget(Image(source='Wall_Beige.png', pos = (rock[1]*50,rock[0]*50), size = (50,50)))
 
     def __init__(self, **kwargs):
         super(SokobanGame, self).__init__(**kwargs)
@@ -194,19 +190,21 @@ class SokobanGame(FloatLayout):
         # self.player.moveBox(self.box)
         box = [self.box1,self.box2,self.box3,self.box4]
         door = [self.door1,self.door2,self.door3,self.door4]
-        self.player.update(box,door)
+        #print(self.move_)
+        self.move_ = self.player.update(box,door,self.move_)
+        print(self.move_)
+        if end_check(box,door) == True:
+            self.add_widget(Label(font_size = 60, center_x = self.width / 2, top = self.top - 50,  text = "CONGRATULATION !"))
+            self.status = True
+
 
 class SokobanApp(App):
-    #t1 = 40
     def build(self):
         game = SokobanGame()
         game.initbox()
         game.initdoor()
         game.draw()
-        # Clock.schedule_interval(1.0 / 60.0)  # Vòng lặp fps game
-
         return game
-
 
 if __name__ == "__main__":
     SokobanApp().run()
